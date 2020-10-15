@@ -80,7 +80,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 );
 $result = curl_exec($ch);
 curl_close($ch);
-header("Location: http://ninettenkg.atwebpages.com/confirm.html"); 
+header("Location: https://nineteenkg.herokuapp.com/confirm.html"); 
 exit;
 
 }
