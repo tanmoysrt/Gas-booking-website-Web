@@ -11,7 +11,7 @@
     
    <div style="text-align: center;width: 100%;height:300px;padding-top: 10px;padding-bottom: 10px">
     <form action="/verify.php" method="GET" >
-        <input type="text" style="border-radius: 30px; border: 1px solid red;height: 30px;width: 300px;text-align: center;font-family: 'Piazzolla', serif;" name="number" placeholder='Enter Phone No' ><br>
+        <input type="text" style="border-radius: 30px; border: 1px solid red;height: 30px;width: 500px;text-align: center;font-family: 'Piazzolla', serif;" name="number" placeholder='Enter Phone No' required ><br>
         <button class="btn btn-warning" style="padding: 10px"><a style="padding: 5px">Submit</a></button>
     </form>
     </div>
