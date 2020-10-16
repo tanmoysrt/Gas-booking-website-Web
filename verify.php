@@ -194,15 +194,15 @@ exit;
             <div>
                 <label for="deliver" style="padding: 5px;font-family: 'Roboto', sans-serif;">No of Cylinders you need</label>
                 <br>
-                <input type="text" class="form-control" name='nodeliver'placeholder='How many'>
+                <input type="text" class="form-control" name='nodeliver'placeholder='How many' required>
             </div>
             
             <div>
                 <label for="pickup" style="padding:5px;font-family: 'Roboto', sans-serif;">Empty Cylinders you have</label>
                 <br>
-                <input type="text" class="form-control" name="nopickup" placeholder="How many?">
+                <input type="text" class="form-control" name="nopickup" placeholder="How many?" required>
             </div>
-            <input type="number" name="number" value="<?php echo $x ?>" style="display:none">
+            <input type="number" name="number" value="<?php echo $x ?>" style="display:none" >
             <div class="btn btn-primary btn-block" style="margin-top: 10px;" onClick="document.forms['bookingform'].submit();">Book Now</div>
         </form>
     </div>
