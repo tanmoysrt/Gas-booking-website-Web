@@ -135,16 +135,6 @@ exit;
         </div>
         <div class="row">
             <div class="col-7">
-                <p style="font-family: 'Work Sans', sans-serif;">Current Stock : </p>
-            </div>
-            <div class="col">
-                 <p><?php
-      echo $output->fields->stock->stringValue;
-      ?></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Phone No:</p>
             </div>
             <div class="col">
