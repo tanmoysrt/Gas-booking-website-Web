@@ -96,7 +96,7 @@ exit;
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
-  <body style="background: linear-gradient(321deg, rgba(34,193,195,1) 0%, rgba(196,88,160,1) 0%, rgba(252,47,108,1) 100%);" class="text-center">
+  <body style="background: linear-gradient(321deg, rgba(34,193,195,1) 0%, rgba(196,88,160,1) 0%, rgba(252,47,108,1) 100%);" >
       
       
     <!--Top nav bar-->
@@ -106,7 +106,7 @@ exit;
     </div>  
     <div class="card " style="padding: 15px !important;border-radius: 5px;margin: 10px;">
         <div class="row">
-            <div class="col-5">
+            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Provider Name : </p>
             </div>
             <div class="col">
@@ -114,7 +114,7 @@ exit;
             </div>
         </div>
         <div class="row">
-            <div class="col-5">
+            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Name : </p>
             </div>
             <div class="col">
@@ -124,7 +124,7 @@ exit;
             </div>
         </div>
         <div class="row">
-            <div class="col-5">
+            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Consumer ID : </p>
             </div>
             <div class="col">
@@ -134,7 +134,7 @@ exit;
             </div>
         </div>
         <div class="row">
-            <div class="col-5">
+            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Current Stock : </p>
             </div>
             <div class="col">
@@ -144,7 +144,7 @@ exit;
             </div>
         </div>
         <div class="row">
-            <div class="col-5">
+            <div class="col-7">
                 <p style="font-family: 'Work Sans', sans-serif;">Phone No:</p>
             </div>
             <div class="col">
