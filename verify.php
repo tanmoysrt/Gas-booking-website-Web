@@ -193,7 +193,7 @@ exit;
                 <input type="text" class="form-control" name="nopickup" placeholder="How many?" required>
             </div>
             <input type="number" name="number" value="<?php echo $x ?>" style="display:none" >
-            <div class="btn btn-primary btn-block" style="margin-top: 10px;" onClick="document.forms['bookingform'].submit();">Book Now</div>
+            <button class="btn btn-primary btn-block" style="margin-top: 10px;" type="submit">Book Now</button>
         </form>
     </div>
 
